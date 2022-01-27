@@ -1,0 +1,101 @@
+
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    width:100%;
+    height:100%;
+    display: flex;
+    background-color: coral;
+
+}
+
+
+#left{
+    
+    width:30%;
+    height: 100%;
+    background-color: black;
+    
+}
+
+#text h3{
+    letter-spacing: 4px;
+    position: absolute;
+    top:110px;
+    left:300px;
+    font-family: 'Hursheys';                             
+    font-size: 100px;
+    color: white;
+    animation: mymove 6s infinite;
+    transition: transform .2s;
+
+}
+
+#text:hover{
+    transform: scale(1.1);
+}
+@keyframes mymove {
+    from {color: violet;}
+    to {color: darkorchid;}
+  }
+
+
+#center{
+    
+    height:100%;
+    width:50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1622427667495-c708572663de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNleHklMjBnaXJscyUyMGluJTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)
+}
+
+
+
+
+#search{
+    top:75%;
+    position:absolute;
+    border-radius: 0px;
+    border: 0.1px solid white;
+    padding: 20px;
+    width: 100%;
+    height: 30px;   
+
+}
+
+#rtop{
+    
+     position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1625856198964-24c7e8902731?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2V4eSUyMGdpcmxzJTIwaW4lMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    
+}
+
+#rbtm{
+    top:70%;
+    right: 80%;
+    height:30%;
+    width:20%;
+    
+    color:black;
+}
+
+#rbtm h3{
+    font-family:'Hursheys';
+
+}
+
